@@ -1,0 +1,92 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content{
+  margin-top: 10px;
+  
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+  margin: 0;
+  color: rgb(220, 221, 225);
+}
+
+
+.button-container {
+  display: flex;
+  justify-content:space-evenly;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px 50px;
+ 
+}
+
+.theme-button{
+  background-color: #76797b;
+  color: white;
+
+  padding: 10px 40px;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+ 
+  cursor: pointer;
+  margin: 0 5px;
+  
+}
+
+.theme-button:hover{
+  background-color: #3e3d3d;
+  color: white;
+}
+
+@media (max-width: 768px){
+  h1{
+    font-size: 1.5rem;
+  }
+  .theme-button{
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  .content{
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px){
+  h1{
+    font-size: 1rem;
+  }
+  .theme-button{
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+  .content{
+    max-width: 100%;
+  }
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+ 
+
